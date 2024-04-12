@@ -1,0 +1,6 @@
+rasterio
+matplotlib
+numpy
+scipy
+pyvista
+pvgeo
