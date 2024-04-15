@@ -7,7 +7,7 @@ Download the example Geotiff file from:
                                         (You can also use your Geotiff files)
 
 Place the geotiff file in folder :
-                              module -- data
+                              GeoSight -- data
 
 Change the name of geotiff file to " image " 
 
@@ -15,7 +15,7 @@ Change the name of geotiff file to " image "
 Setup the package using :
                            pip install e .
 
-Run the main.py code in the folder named code
+Run the main.py code
 
 
 The first plot is the 2D plotting of the Topographic map
