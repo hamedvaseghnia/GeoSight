@@ -33,7 +33,7 @@ class TopographyExtractor:
         
         if remove:
             extracted = ExtractTopography(tolerance=tolerance, remove=remove).apply(self.mesh, self.topo)
-            p.add_mesh(extracted, color=True, show_edges=show_edges)
+            p.add_mesh(extracted, color=True, show_edges=show_edges, opacity=0.1)
         else:
             extracted = ExtractTopography().apply(self.mesh, self.topo)
             threshed = extracted.threshold(0.5, scalars="Extracted")

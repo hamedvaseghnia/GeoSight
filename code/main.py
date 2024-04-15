@@ -3,6 +3,7 @@ from module.Processor import ElevationDataProcessor
 from module.Visualizer import ElevationDataVisualizer
 from module.Gradient import ElevationDataSlopeCalculator
 from module.PVGeo import TopographyExtractor
+from module.Clustering import  ClusterLabeling
 
   
 def main():
@@ -16,7 +17,12 @@ def main():
     slope_calculator = ElevationDataSlopeCalculator(elevation_data)
     slope_degrees = slope_calculator.calculate_slope()
     slope_calculator.visualize_slope(slope_degrees)
-    
+
+
+    cluster_labeling = ClusterLabeling(elevation_data)
+    cluster_labels = cluster_labeling.cluster_elevation_data(n_clusters=5)
+    cluster_labeling.visualize_clusters(cluster_labels)
+
 
     processor = ElevationDataProcessor(elevation_data)
     processor.resample_elevation_data(scale_factor=0.01)  

@@ -7,7 +7,7 @@ class ElevationDataManager:
 
     def load_elevation_data(self):
         """
-        Loads elevation data from the TIFF file
+        Loads elevation data from the TIFF file using importlib resources to access the package resource.
         """
         data_path = resources.files('module.data').joinpath('image.tif')
         with rasterio.open(data_path) as src:
