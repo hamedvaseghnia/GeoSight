@@ -15,9 +15,6 @@ Change the name of geotiff file to " image "
 Setup the package using :
                            pip install e .
 
-Run the main.py code
+Run the executable files in GeoSight - bin folder
 
 
-The first plot is the 2D plotting of the Topographic map
-After closing the first plot, the second plot will open with slope data.
-After the second plot, a 3D visualization of smoothed and resampled data will be shown using PVGeo.
