@@ -7,7 +7,7 @@ Download the example Geotiff file from:
                                         (You can also use your Geotiff files)
 
 Place the geotiff file in folder :
-                              GeoSight -- data
+                               Data
 
 Change the name of geotiff file to " image " 
 
