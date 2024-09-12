@@ -1,6 +1,7 @@
 # GeoSight
 
-![Geosight logo small](https://github.com/user-attachments/assets/189d01ab-629f-42e8-b18d-ead593e72463)
+
+![Geosight logo small](https://github.com/user-attachments/assets/a587422b-39b2-42af-afb8-391e5653d6eb)
 
 
 This repository contains a code for visualization and data processing of Geotiff files
