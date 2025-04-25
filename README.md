@@ -1,7 +1,8 @@
 # GeoSight
 
 
-![Geosight logo small](https://github.com/hamedvaseghnia/GeoSight/blob/main/logo.png)
+<img src="https://raw.githubusercontent.com/hamedvaseghnia/GeoSight/main/logo.png" alt="GeoSight logo" width="200">
+
 
 
 This repository contains a code for visualization and data processing of Geotiff files
